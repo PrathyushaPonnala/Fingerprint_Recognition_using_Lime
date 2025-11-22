@@ -1,0 +1,11 @@
+Support Vector Machine (SVM):
+Used for classification, distinguishing between genuine and impostor fingerprints.
+Specifically, the sklearn.svm.SVC (Support Vector Classification) class is employed with a linear kernel.
+
+Histogram of Oriented Gradients (HOG):
+Used for feature extraction from fingerprint images.
+Extracts local gradient information, capturing the distribution of intensity gradients in different parts of the image.
+
+Lime (Local Interpretable Model-agnostic Explanations):
+Used for providing interpretability to the SVM model's predictions.
+Helps in understanding how the SVM model makes predictions for a given instance by approximating the decision boundary around that instance.
